@@ -1,4 +1,4 @@
-# Diffution Model 3D for Voxel Generation
+# Diffusion Model 3D for Voxel Generation
 
 生成式入门联手，纯垃圾代码，只能跑通，不能生成有效结果
 
