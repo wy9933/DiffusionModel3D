@@ -19,7 +19,7 @@ class CFG:
     save_best = True
 
     # 生成相关
-    ckpt_path = "./ckpt/0best_model.pth"
+    ckpt_path = "./ckpt/best_model.pth"
     gene_num = 2
     gene_step = 20
     result_dir = "./generation"

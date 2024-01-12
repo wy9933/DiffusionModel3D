@@ -65,7 +65,7 @@ class UpBlock(nn.Module):
     def forward(self, x, xd):
         x = F.interpolate(x, scale_factor=self.scale, mode='trilinear')
         for i, rb in enumerate(self.rbs):
-            x = torch.cat([x, xd[i]], dim=1)
+            x = torch.cat([x, xd[-i-1]], dim=1)
             x = rb(x)
         return x
 
